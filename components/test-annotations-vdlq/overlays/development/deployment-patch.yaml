@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/tnevrlka-test/build-e2e-fscf-tenant/build-suite-test-application-mgck/test-annotations-vdlq@sha256:a52f4cb93cbc8b7b19b9e45c5e404f6e6b42de878b0c8b54dc7332bc99a6c222
+      - image: quay.io/tnevrlka-test/build-e2e-fscf-tenant/build-suite-test-application-mgck/test-annotations-vdlq@sha256:9a5052ee24414a7f16708f7d4f70ed157a845d60934c6491ea67c5a3796f1fda
         name: my-nginx
         resources: {}
 status: {}
