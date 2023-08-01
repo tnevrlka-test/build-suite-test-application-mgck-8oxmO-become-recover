@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-vdlq
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-fscf-tenant/build-suite-test-application-mgck/test-annotations-vdlq@sha256:a52f4cb93cbc8b7b19b9e45c5e404f6e6b42de878b0c8b54dc7332bc99a6c222
+        name: my-nginx
+        resources: {}
+status: {}
