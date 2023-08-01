@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-vdlq
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-fscf-tenant/build-suite-test-application-mgck/test-annotations-vdlq@sha256:a52f4cb93cbc8b7b19b9e45c5e404f6e6b42de878b0c8b54dc7332bc99a6c222
         name: my-nginx
         ports:
         - containerPort: 8080
